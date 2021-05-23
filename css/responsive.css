@@ -1,0 +1,36 @@
+@media (max-width: 960px) {
+  html {
+    font-size: 58%;
+  }
+  #menu {
+    display: block;
+  }
+  header {
+    left: -100%;
+  }
+
+  header.toggle {
+    left: 0;
+  }
+  body {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 52%;
+  }
+  header {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    width: 100vw;
+  }
+}
