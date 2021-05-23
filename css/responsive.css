@@ -1,3 +1,9 @@
+@media (max-width: 1300px) {
+  .card-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 960px) {
   html {
     font-size: 58%;
@@ -15,6 +21,9 @@
   body {
     padding-left: 0;
   }
+  .card-grid-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 760px) {
@@ -24,6 +33,9 @@
   header {
     width: 50vw;
   }
+  .card-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 460px) {
@@ -32,5 +44,8 @@
   }
   header {
     width: 100vw;
+  }
+  .card-grid-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
