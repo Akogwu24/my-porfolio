@@ -223,7 +223,11 @@ section {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
-
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .contact-wrapper {
   height: 100vh;
   color: white;
@@ -233,7 +237,9 @@ section {
   align-items: start;
   font-size: 2rem;
 }
-
+.contact-wrapper span {
+  color: #92dce5;
+}
 .contact-wrapper h2 {
   font-size: 3.5rem;
   margin-bottom: 2rem;
@@ -241,8 +247,9 @@ section {
 }
 .contact-wrapper h2 i {
   font-size: 4rem;
-  color: rgb(142, 224, 207);
+  color: #74ace0;
 }
+
 .contacts li i {
   margin-right: 1.5rem;
   font-size: 3rem;
@@ -257,4 +264,9 @@ section {
 }
 .contacts li {
   margin: 3.5rem auto;
+}
+
+.contact-image img {
+  width: 350px;
+  height: 350px;
 }

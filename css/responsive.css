@@ -48,7 +48,14 @@
   .card-grid-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  section {
-    height: 100%;
+  .contact-wrapper {
+    height: 85vh;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  .contact-image img {
+    width: 200px;
+    height: 220px;
   }
 }
