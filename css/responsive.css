@@ -49,13 +49,17 @@
     grid-template-columns: repeat(1, 1fr);
   }
   section {
-    min-height: 100%;
+    min-height: 90vh;
   }
   #contact {
     flex-direction: column;
+    height: 100vh;
   }
   .contact-image img {
     width: 200px;
     height: 220px;
   }
+  /* .contact-wrapper {
+    height: 80vh;
+  } */
 }
