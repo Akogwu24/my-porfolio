@@ -48,8 +48,8 @@
   .card-grid-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  .contact-wrapper {
-    height: 85vh;
+  section {
+    min-height: 100%;
   }
   #contact {
     flex-direction: column;
