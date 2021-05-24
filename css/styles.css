@@ -14,7 +14,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #121518;
+  background-color: #000000;
   padding-left: 32rem;
   color: white;
 }
@@ -28,11 +28,11 @@ header .user img {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 2rem;
-  border: 0.7rem solid #30e3ca;
+  border: 0.7rem solid #92e6da;
 }
 
 .user {
-  color: black;
+  color: #7c7c7c;
   color: hsl(0, 0%, 100%);
 }
 .user h3 {
@@ -55,7 +55,7 @@ header {
   align-items: center;
   flex-flow: column;
   text-align: center;
-  background-color: #000000;
+  background-color: #181616;
   padding: 2rem;
 }
 
@@ -115,25 +115,27 @@ section {
   text-align: justify;
 }
 .home span {
-  color: #30e3ca;
+  color: #92dce5;
 }
 
 .btn {
   font: bolder small-caps italic 2rem 'KoHo';
   padding: 0.6rem 2rem;
-  background-color: #637a77;
+  background-color: #181616;
   border-radius: 5px;
   color: white;
-  box-shadow: 2px 2px 5px rgba(82, 231, 187, 0.712);
+  box-shadow: 2px 2px 5px rgba(59, 65, 65, 0.712);
 }
 .btn:hover {
-  background-color: #8ddfd4;
+  background-color: #527177;
 }
 
 .btn i {
-  color: black;
+  color: #a2bfda;
   padding: 0 0.8rem;
   font-size: 1.8rem;
+}
+.btn i:hover {
 }
 .card img {
   width: 100%;
@@ -168,7 +170,7 @@ section {
   font-size: 3.5rem;
 }
 .portfolio h1 span {
-  color: teal;
+  color: #92dce5;
 }
 .portfolio p {
   font-size: 1.5rem;
@@ -189,7 +191,7 @@ section {
   padding: 1rem 0 3rem;
 }
 .tool-box span {
-  color: teal;
+  color: #92dce5;
 }
 
 .tool-card img {
@@ -220,12 +222,13 @@ section {
   text-align: center;
 }
 .contact-wrapper h2 i {
+  font-size: 4rem;
   color: rgb(142, 224, 207);
 }
 .contacts li i {
   margin-right: 1.5rem;
   font-size: 3rem;
-  color: #30e3ca;
+  color: #74ace0;
 }
 
 .contacts li a {
