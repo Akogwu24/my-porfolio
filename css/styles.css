@@ -136,6 +136,25 @@ section {
   font-size: 1.8rem;
 }
 
+.about {
+  font-size: 2rem;
+  text-align: justify;
+  color: white;
+}
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 2rem 0;
+}
+
+.heading span {
+  color: #92dce5;
+}
+.info span {
+  color: #92dce5;
+  text-align: center;
+  font-size: 3rem;
+}
 .card img {
   width: 100%;
   height: 180px;
