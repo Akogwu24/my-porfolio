@@ -1,12 +1,19 @@
 //typing amination
 let myName = document.getElementById('name');
-const text = myName.textContent;
+const names = ['Akogwu ', 'Emmanuel ', 'Ugbede '];
 let index = 0;
+let i = 0;
 function typeName() {
+  let text = names[i];
   myName.textContent = text.slice(0, index);
+
   index++;
   if (index > text.length - 1) {
     index = 0;
+    i++;
+    if (i > 2) {
+      i = 0;
+    }
   }
 }
 
