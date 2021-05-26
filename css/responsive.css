@@ -53,10 +53,10 @@
     flex-direction: column;
     height: 100vh;
   }
-  /* .contact-image img {
-    width: 200px;
-    height: 220px;
-  } */
+  .tool-card-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
   .contact h2 i {
     display: none;
   }

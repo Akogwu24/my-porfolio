@@ -57,6 +57,7 @@ header {
   text-align: center;
   background-color: #222121;
   padding: 2rem;
+  transition: ease-in-out all 1s;
 }
 
 .navbar ul {
@@ -235,7 +236,6 @@ section {
   align-items: center;
   font-size: 2rem;
   gap: 5rem;
-  /* background-color: red; */
 }
 .contact span {
   color: #f1e05a;
