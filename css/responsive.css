@@ -48,18 +48,27 @@
   .card-grid-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
-  section {
-    min-height: 90vh;
-  }
-  #contact {
+
+  .contact {
     flex-direction: column;
     height: 100vh;
   }
-  .contact-image img {
+  /* .contact-image img {
     width: 200px;
     height: 220px;
-  }
-  /* .contact-wrapper {
-    height: 80vh;
   } */
+  .contact h2 i {
+    display: none;
+  }
+  .contact h2 {
+    margin-bottom: 2rem;
+  }
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact-image {
+    width: 70%;
+    height: 50%;
+  }
 }
