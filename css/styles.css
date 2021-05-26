@@ -111,7 +111,7 @@ section {
   padding: 1rem 0;
 }
 .home p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #eee;
   margin-bottom: 1.5rem;
   text-align: justify;
@@ -144,7 +144,7 @@ section {
   text-align: justify;
   color: white;
 }
-.heading {
+.about .heading {
   text-align: center;
   font-size: 3.5rem;
   margin: 2rem 0;
