@@ -279,3 +279,6 @@ strong {
   text-transform: lowercase;
   font-size: 2.2rem;
 }
+.chakra-ui {
+  border-radius: 5px;
+}
