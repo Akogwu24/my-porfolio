@@ -54,6 +54,8 @@ header {
   background-color: #04061b;
   padding: 2rem;
   transition: ease-in-out all 0.5s;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .navbar ul {
