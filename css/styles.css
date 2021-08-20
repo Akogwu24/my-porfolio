@@ -265,11 +265,12 @@ section {
 
 .contact-image {
   width: 40%;
+  object-fit: cover;
 }
 .contact-image img {
   box-shadow: 2px 3px 5px #95a2df;
   width: 100%;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
 }
 strong {
   font-variant: small-caps;
